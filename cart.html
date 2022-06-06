@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ca113e62ae.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <div class="containerBlock">
+                <nav class="navigationContainer">
+                    <ul class="navigationContainer_List">
+                        <li class="navigationContainer_ListItem">
+                            <a href="index.html">
+                                <img src="img/icons/logo.svg" alt="logo">
+                            </a>
+                        </li>
+
+                        <li class="navigationContainer_ListItem">
+                            <img src="img/icons/search.svg" alt="search">
+                        </li>
+                    </ul>
+
+                    <ul class="navigationContainer_List">
+                        <li class="navigationContainer_ListItem navigationContainer_HamburgerMenu">
+                            <img src="img/icons/hamburger-menu.svg" alt="menu">
+
+                            <nav class="headerMenu">
+                                <div class="headerMenu__CloseBtn">
+                                    <img src="img/icons/close.svg" alt="close">
+                                </div>
+
+                                <div class="headerMenu__Title">menu</div>
+
+                                <div class="headerMenu__Section">
+                                    <div class="headerMenu__Title_Pink">man</div>
+
+                                    <ul class="headerMenu__Categorie">
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Accessories</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Bags</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Denim</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">T-Shirts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="headerMenu__Section">
+                                    <div class="headerMenu__Title_Pink">woman</div>
+
+                                    <ul class="headerMenu__Categorie">
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Accessories</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Jackets & Coats</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Polos</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">T-Shirts</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Shirts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="headerMenu__Section">
+                                    <div class="headerMenu__Title_Pink">kids</div>
+
+                                    <ul class="headerMenu__Categorie">
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Accessories</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Jackets & Coats</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Polos</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">T-Shirts</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Shirts</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Bags</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </li>
+
+                        <li class="navigationContainer_ListItem navigationContainer_Registration">
+                            <a href="registration.html"><img src="img/icons/user.svg" alt="user"></a>
+                        </li>
+
+                        <li class="navigationContainer_ListItem navigationContainer_Cart">
+                            <a href="cart.html"><img src="img/icons/basket.svg" alt="basket"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="headerProduct">
+            <div class="containerBlock">
+                <div class="headerContainer headerContainer--Product">
+                    <h1 class="productPage_Title">SHOPPING CART</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="cart">
+        <div class="containerBlock">
+            <div class="cartContainer">
+                <div class="cartProducts">
+                    <div class="cartProducts_Basket">
+                        <div class="cartProducts_BasketItem">
+                            <a href="product.html" class="cartProducts_BasketPhoto">
+                                <img src="img/mod_photo3.png" alt="mod_photo">
+                            </a>
+
+                            <div class="cartProducts_BasketDescription">
+                                <div class="cartProducts_BasketProduct">
+                                    <div class="cartProducts_BasketTitle">MANGO PEOPLE<br>T-SHIRT</div>
+                                    <p class="cartProducts_BasketText">Price: <span
+                                            class="cartForm_TotalPrice--pink">$300</span></p>
+                                    <p class="cartProducts_BasketText">Color: Red</p>
+                                    <p class="cartProducts_BasketText">Size: Xl</p>
+                                    <p class="cartProducts_BasketText cartProducts_BasketText--q">Quantity: <input
+                                            type="number" min="1" value="2" class="cartProducts_BasketQuantity"></p>
+                                </div>
+
+                                <div class="cartProducts_BasketClose">
+                                    <img src="img/icons/close.svg" alt="close">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cartProducts_BasketItem">
+                            <a href="product.html" class="cartProducts_BasketPhoto">
+                                <img src="img/mod_photo7.png" alt="mod_photo">
+                            </a>
+
+                            <div class="cartProducts_BasketDescription">
+                                <div class="cartProducts_BasketProduct">
+                                    <div class="cartProducts_BasketTitle">MANGO PEOPLE<br>T-SHIRT</div>
+                                    <p class="cartProducts_BasketText">Price: <span
+                                            class="cartForm_TotalPrice--pink">$300</span></p>
+                                    <p class="cartProducts_BasketText">Color: Red</p>
+                                    <p class="cartProducts_BasketText">Size: Xl</p>
+                                    <p class="cartProducts_BasketText cartProducts_BasketText--q">Quantity: <input
+                                            type="number" min="1" value="2" class="cartProducts_BasketQuantity"></p>
+                                </div>
+
+                                <div class="cartProducts_BasketClose">
+                                    <img src="img/icons/close.svg" alt="close">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cartProducts_Btns">
+                        <button type="submit" class="productBtn productBtn_Cart productBtn_Cart--products">CLEAR
+                            SHOPPING CART</button>
+                        <button type="submit" class="productBtn productBtn_Cart productBtn_Cart--products">CONTINUE
+                            SHOPPING</button>
+                    </div>
+                </div>
+
+                <form method="post" class="registrationForm--Cart">
+                    <div class="cartForm_Address">
+                        <div class="registrationForm_Title">SHIPPING ADRESS</div>
+                        <input type="text" name="country" placeholder="Bangladesh" required
+                            class="registrationForm_Input">
+                        <input type="text" name="state" placeholder="State" required class="registrationForm_Input">
+                        <input type="text" name="postcode" placeholder="Postcode / Zip" required
+                            class="registrationForm_Input">
+
+                        <button type="submit" class="productBtn productBtn_Cart">GET A QUOTE</button>
+                    </div>
+
+                    <div class="cartForm_Sum">
+                        <div class="cartForm_Total">
+                            <div class="cartForm_TotalSub">
+                                <span>SUB TOTAL</span>
+                                <span class="cartForm_TotalPrice">$900</span>
+                            </div>
+
+                            <div class="cartForm_TotalGrand">
+                                <span>GRAND TOTAL</span>
+                                <span class="cartForm_TotalPrice cartForm_TotalPrice--pink">$900</span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="recursiveBtn recursiveBtn_Cart">PROCEED TO CHECKOUT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerTop">
+            <div class="containerBlock">
+                <div class="footerTop__Content">
+                    <figure class="footerTop__ContentItem">
+                        <img src="img/footer_photo.png" alt="footer_photo" class="footerTop__ContentImg">
+                        <figcaption>“Vestibulum quis porttitor dui! Quisque<br> viverra nunc mi, <i>a pulvinar purus<br>
+                                condimentum</i>“</figcaption>
+                    </figure>
+
+                    <div class="footerTop__ContentItem">
+                        <div class="footerTop__ContentTitle">
+                            <span class="footerTop__ContentTitle_Top">subscribe<br></span>
+                            <span class="footerTop__ContentTitle_Bottom">fop our newletter and promotion</span>
+                        </div>
+
+                        <form class="footerTop__ContentForm">
+                            <input type="text" placeholder="Enter Your Email" class="footerTop__FormInput">
+                            <button type="submit" class="footerTop__FormBtn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <div class="containerBlock">
+                <div class="footerBottom__Content">
+                    <div class="footerBottom__Text">© 2021 Brand All Rights Reserved.</div>
+
+                    <nav>
+                        <ul class="footerBottom__List">
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </li>
+
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ca113e62ae.js" crossorigin="anonymous"></script>
+    <title>Registration</title>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <div class="containerBlock">
+                <nav class="navigationContainer">
+                    <ul class="navigationContainer_List">
+                        <li class="navigationContainer_ListItem">
+                            <a href="index.html">
+                                <img src="img/icons/logo.svg" alt="logo">
+                            </a>
+                        </li>
+
+                        <li class="navigationContainer_ListItem">
+                            <img src="img/icons/search.svg" alt="search">
+                        </li>
+                    </ul>
+
+                    <ul class="navigationContainer_List">
+                        <li class="navigationContainer_ListItem navigationContainer_HamburgerMenu">
+                            <img src="img/icons/hamburger-menu.svg" alt="menu">
+
+                            <nav class="headerMenu">
+                                <div class="headerMenu__CloseBtn">
+                                    <img src="img/icons/close.svg" alt="close">
+                                </div>
+
+                                <div class="headerMenu__Title">menu</div>
+
+                                <div class="headerMenu__Section">
+                                    <div class="headerMenu__Title_Pink">man</div>
+
+                                    <ul class="headerMenu__Categorie">
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Accessories</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Bags</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Denim</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">T-Shirts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="headerMenu__Section">
+                                    <div class="headerMenu__Title_Pink">woman</div>
+
+                                    <ul class="headerMenu__Categorie">
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Accessories</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Jackets & Coats</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Polos</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">T-Shirts</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Shirts</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="headerMenu__Section">
+                                    <div class="headerMenu__Title_Pink">kids</div>
+
+                                    <ul class="headerMenu__Categorie">
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Accessories</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Jackets & Coats</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Polos</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">T-Shirts</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Shirts</a>
+                                        </li>
+
+                                        <li class="headerMenu__CategorieItem">
+                                            <a href="#" class="headerMenu__CategorieLink">Bags</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </li>
+
+                        <li class="navigationContainer_ListItem navigationContainer_Registration">
+                            <a href="registration.html"><img src="img/icons/user.svg" alt="user"></a>
+                        </li>
+
+                        <li class="navigationContainer_ListItem navigationContainer_Cart">
+                            <a href="cart.html"><img src="img/icons/basket.svg" alt="basket"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="headerProduct">
+            <div class="containerBlock">
+                <div class="headerContainer headerContainer--Product">
+                    <h1 class="productPage_Title">Registration</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="registration">
+        <div class="containerBlock">
+            <div class="registrationContainer">
+                <form method="post" class="registrationForm">
+                    <div class="registrationForm_Title">Your Name</div>
+                    <input type="text" name="fname" placeholder="First Name" required class="registrationForm_Input">
+                    <input type="text" name="lname" placeholder="Last Name" required class="registrationForm_Input">
+
+                    <div class="registrationForm_Radio">
+                        <label for="male" class="registrationForm_Title"><input type="radio" id="male" name="gender"
+                                value="male" required class="registrationForm_RInput">Male</label>
+                        <label for="female" class="registrationForm_Title"><input type="radio" id="female" name="gender"
+                                value="female" required class="registrationForm_RInput">Female</label>
+                    </div>
+
+                    <div class="registrationForm_Title">Login details</div>
+                    <input type="text" name="email" placeholder="Email" required class="registrationForm_Input">
+                    <input type="text" name="password" placeholder="Password" required class="registrationForm_Input">
+
+                    <div class="registrationForm_SubText">Please use 8 or more characters, with at least 1 number and
+                        a<br>
+                        mixture of uppercase and
+                        lowercase letters</div>
+
+                    <button type="submit" class="recursiveBtn recursiveBtn_Registration">
+                        <span>JOIN NOW</span>
+                        <i class="fa fa-solid fa-chevron-right recursiveBtn_Registration-Img"></i>
+                    </button>
+                </form>
+
+                <article class="registrationArticle">
+                    <div>LOYALTY HAS ITS PERKS</div>
+                    <div>Get in on the loyalty program where you can earn points and<br>unlock serious perks. Starting
+                        with these as soon as you join:</div>
+
+                    <ul class="registrationList">
+                        <li>15% off welcome offer</li>
+                        <li>Free shipping, returns and exchanges on all orders</li>
+                        <li>$10 off a purchase on your birthday</li>
+                        <li>Early access to products</li>
+                        <li>Exclusive offers & rewards</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerTop">
+            <div class="containerBlock">
+                <div class="footerTop__Content">
+                    <figure class="footerTop__ContentItem">
+                        <img src="img/footer_photo.png" alt="footer_photo" class="footerTop__ContentImg">
+                        <figcaption>“Vestibulum quis porttitor dui! Quisque<br> viverra nunc mi, <i>a pulvinar
+                                purus<br>
+                                condimentum</i>“</figcaption>
+                    </figure>
+
+                    <div class="footerTop__ContentItem">
+                        <div class="footerTop__ContentTitle">
+                            <span class="footerTop__ContentTitle_Top">subscribe<br></span>
+                            <span class="footerTop__ContentTitle_Bottom">fop our newletter and promotion</span>
+                        </div>
+
+                        <form class="footerTop__ContentForm">
+                            <input type="text" placeholder="Enter Your Email" class="footerTop__FormInput">
+                            <button type="submit" class="footerTop__FormBtn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <div class="containerBlock">
+                <div class="footerBottom__Content">
+                    <div class="footerBottom__Text">© 2021 Brand All Rights Reserved.</div>
+
+                    <nav>
+                        <ul class="footerBottom__List">
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </li>
+
+                            <li class="footerBottom__ListItem">
+                                <a href="#" class="footerBottom__ListIcon">
+                                    <i class="fa fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
